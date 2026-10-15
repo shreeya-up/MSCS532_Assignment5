@@ -8,7 +8,7 @@ from quick_sorts import ran_quick_sort, det_quick_sort
 # This script compares the performance of randomized quicksort and deterministic quicksort algorithms on random data and visualizes the results.
 # AI has been used to write some of the code for this script, but it has been reviewed and modified by me to ensure accuracy and clarity.
 
-size = [500, 1000, 1500, 2000]
+size = [500, 1000, 1500, 2000, 2500]
 types = ["random", "sorted", "reverse", "repeated"]
 algorithms = {
     "Randomized quick sort": ran_quick_sort,
