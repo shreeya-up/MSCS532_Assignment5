@@ -34,8 +34,8 @@ def quick_sort(a, p_index):
 
 def det_quick_sort(a):
        """Sorts the array in place using the deterministic quicksort algorithm."""
-       quick_sort(a, "first")
+       quick_sort(a, "first")           # Use the first element as the pivot for deterministic quicksort
 
 def ran_quick_sort(a):
     """Sorts the array in place using the randomized quicksort algorithm."""
-    quick_sort(a, "random")
+    quick_sort(a, "random")           # Use a random element as the pivot for randomized quicksort
